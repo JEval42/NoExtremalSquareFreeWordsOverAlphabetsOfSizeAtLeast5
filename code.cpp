@@ -12,12 +12,12 @@
  * this implementation are zero-based; lengths are unchanged.
  *
  * Usage:
- *   ./code1 tuple_length range_start range_end_exclusive
+ *   ./code tuple_length range_start range_end_exclusive
  *
  * The three computations used in the paper are:
- *   ./code1 10  2 13   # S = {2, ..., 12}
- *   ./code1 25 13 26   # S = {13, ..., 25}
- *   ./code1 51 26 40   # S = {26, ..., 39}
+ *   ./code 10  2 13   # S = {2, ..., 12}
+ *   ./code 25 13 26   # S = {13, ..., 25}
+ *   ./code 51 26 40   # S = {26, ..., 39}
  */
 
 #include <algorithm>
