@@ -134,9 +134,9 @@ change the result.
 This computes the graph for
 
 $$
-k=\texttt{tuple_length},\qquad
-S=\{\texttt{range_start},\ldots,
-\texttt{range_end_exclusive}-1\}.
+k=\texttt{tuple\_length},\qquad
+S=\{\texttt{range\_start},\ldots,
+\texttt{range\_end\_exclusive}-1\}.
 $$
 
 ## Repository contents
