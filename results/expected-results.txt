@@ -1,0 +1,24 @@
+Expected certified results for Lemma lem:max-mean-weight-cycles
+================================================================
+
+Only the mathematically relevant output lines are recorded here. Vertex and
+edge counts are deterministic but omitted; total runtime depends on the
+machine.
+
+Command:
+  ./code1 10 2 13
+Expected result:
+  Maximum mean cycle: 10/11 (0.909090909090909)
+  Exact optimality certificate: verified
+
+Command:
+  ./code1 25 13 26
+Expected result:
+  Maximum mean cycle: 3/20 (0.15)
+  Exact optimality certificate: verified
+
+Command:
+  ./code1 51 26 40
+Expected result:
+  Maximum mean cycle: 4/45 (0.0888888888888889)
+  Exact optimality certificate: verified
