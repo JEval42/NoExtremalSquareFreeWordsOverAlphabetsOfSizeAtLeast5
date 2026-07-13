@@ -4,8 +4,8 @@ CXXFLAGS ?= -std=c++17 -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Wconversion -Wshad
 LDFLAGS ?=
 LDLIBS ?=
 
-TARGET := code1
-SOURCE := code1.cpp
+TARGET := code
+SOURCE := code.cpp
 
 .PHONY: all smoke paper-result-1 paper-result-2 paper-result-3 paper-results clean help
 
