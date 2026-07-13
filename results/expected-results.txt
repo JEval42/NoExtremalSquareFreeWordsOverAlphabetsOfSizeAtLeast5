@@ -6,19 +6,19 @@ edge counts are deterministic but omitted; total runtime depends on the
 machine.
 
 Command:
-  ./code1 10 2 13
+  ./code 10 2 13
 Expected result:
   Maximum mean cycle: 10/11 (0.909090909090909)
   Exact optimality certificate: verified
 
 Command:
-  ./code1 25 13 26
+  ./code 25 13 26
 Expected result:
   Maximum mean cycle: 3/20 (0.15)
   Exact optimality certificate: verified
 
 Command:
-  ./code1 51 26 40
+  ./code 51 26 40
 Expected result:
   Maximum mean cycle: 4/45 (0.0888888888888889)
   Exact optimality certificate: verified
