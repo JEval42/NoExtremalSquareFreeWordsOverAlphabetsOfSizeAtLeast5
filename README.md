@@ -131,14 +131,6 @@ change the result.
 ./code tuple_length range_start range_end_exclusive
 ```
 
-This computes the graph for
-
-$$
-k=\texttt{tuple\_length},\qquad
-S=\{\texttt{range\_start},\ldots,
-\texttt{range\_end\_exclusive}-1\}.
-$$
-
 ## Repository contents
 
 - `code.cpp`: implementation and exact verifier
