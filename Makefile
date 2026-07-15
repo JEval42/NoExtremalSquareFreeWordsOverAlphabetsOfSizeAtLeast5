@@ -31,7 +31,7 @@ paper-result-3: $(TARGET)
 paper-results: $(TARGET)
 	./$(TARGET) 10 2 13
 	./$(TARGET) 25 13 26
-	./$(TARGET) 51 26 40
+	./$(TARGET) 34 26 40
 
 clean:
 	$(RM) $(TARGET)
