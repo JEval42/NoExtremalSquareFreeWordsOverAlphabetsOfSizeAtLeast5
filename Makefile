@@ -1,7 +1,9 @@
 CXX ?= g++
 CPPFLAGS ?=
-CXXFLAGS ?= -std=c++17 -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Wconversion -Wshadow
-LDFLAGS ?=
+# Vertex enumeration benefits substantially from native vector instructions.
+# These variables remain overridable, e.g. `make CXXFLAGS='...' LDFLAGS='...'`.
+CXXFLAGS ?= -std=c++17 -O3 -march=native -flto -DNDEBUG -Wall -Wextra -Wpedantic -Wconversion -Wshadow
+LDFLAGS ?= -flto
 LDLIBS ?=
 
 TARGET := code
